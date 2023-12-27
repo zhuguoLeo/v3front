@@ -4,18 +4,14 @@
       <el-aside width="10%">
         <aside-menu></aside-menu>
       </el-aside>
-<!--ConnectModel-->
       <router-view v-slot="{ Component }">
         <keep-alive>
           <component :is="Component"  v-if="$route.meta.keepAlive"/>
         </keep-alive>
         <component :is="Component"  v-if="!$route.meta.keepAlive"/>
       </router-view>
-
-
     </el-container>
   </div>
-
 </template>
 
 <script >

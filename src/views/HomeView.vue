@@ -1,13 +1,16 @@
 <template>
-<h1>HOME</h1>
+  <h1>编辑界面</h1>
+
 </template>
 
-<script>
-export default {
-  name: "HomeView"
-}
-</script>
+        <script>
+          import * as XLSX from 'xlsx';
+          import * as echarts from 'echarts';
+          export default {
 
-<style scoped>
+          };
+        </script>
 
-</style>
+        <style scoped>
+
+        </style>

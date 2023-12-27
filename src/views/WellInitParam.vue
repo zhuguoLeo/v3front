@@ -171,7 +171,7 @@
   </div>
 </template>
 
-<script  >
+<script >
 
 
 import {defineComponent, nextTick, onMounted, reactive, ref, toRef} from "vue";
@@ -200,7 +200,25 @@ export default
           "wellType": 0,
           'editFlag': false,  // 可编辑标识
            'isSubmit': false, // 是否点击确定标识
-        }]})
+        },
+        {
+          "id": 8,
+          "layerNum": "1",
+          "wellIndexInLayer": "5",
+          "wellName": "WB2X9",
+          "wellNum": 5,
+          "x": 5545.13,
+          "y": 2215.77,
+          "h": 7.8,
+          "poro": 0.24,
+          "initPressure": 24.7,
+          "initSw": 0.2,
+          "k": 1407.4,
+          "wellType": 0,
+          'editFlag': false,  // 可编辑标识
+          'isSubmit': false, // 是否点击确定标识
+        }
+      ]})
     let cacheData= {currentPage:1}
     let total=1
     let v=ref('')
